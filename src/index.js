@@ -17,7 +17,7 @@ import Bioscope from "views/Components/Rudzani/Bioscope.js";
 import ServiceLandingPage from "views/Components/Rudzani/ServiceLandingPage.js";
 import { BlogPostProvider } from 'views/Components/Rudzani/BlogPostProvider.js';
 import BlogLists from 'views/Components/Rudzani/BlogLists.js';
-
+import RudzaniTVTeam from 'views/Components/Rudzani/RudzaniTVTeam.js';
 var hist = createBrowserHistory();
 
 ReactDOM.render(
@@ -31,6 +31,8 @@ ReactDOM.render(
       <Route path="/blog-post" component={BlogPostLandingPage} />
       <Route path="/iBioscope" component={Bioscope} />
       <Route path="/ServiceLandingPage" component={ServiceLandingPage} />
+       <Route path="/About-Us" component={HomePage} />
+       <Route path="/RudzaniTVTeam" component={RudzaniTVTeam} />
       <Route path="/" component={HomePage} />    
     </Switch>
   </Router>

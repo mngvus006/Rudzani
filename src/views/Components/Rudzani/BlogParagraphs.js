@@ -9,11 +9,11 @@ import GridContainer from "components/Grid/GridContainer.js";
 import GridItem from "components/Grid/GridItem.js";
 import CustomInput from "components/CustomInput/CustomInput.js";
 import Button from "components/CustomButtons/Button.js";
-
+import ReactHtmlParser from 'react-html-parser';
 import styles from "assets/jss/material-kit-react/views/landingPageSections/workStyle.js";
 import SectionCarousel from "./SectionCarousel";
 import { getBlogPostById } from "./paragraphContext.js";
-
+import { Link } from "react-router-dom";
 const useStyles = makeStyles(styles);
 
 export default function BlogParagraphs(props) {
@@ -29,7 +29,7 @@ export default function BlogParagraphs(props) {
         <GridItem cs={12} sm={12} md={8}>
           {<h2 className={classes.title}>{mainTitle}</h2>}
           {paragraphs.map(paragraph => {
-            return <h4 className={classes.description}>{paragraph}</h4>;
+            return <h4 className={classes.description}>{ ReactHtmlParser(paragraph) }</h4>;
           })}
         </GridItem>
       </GridContainer>

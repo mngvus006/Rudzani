@@ -27,6 +27,26 @@ export default function HeaderLinks(props) {
   const classes = useStyles();
   return (
     <List className={classes.list}>
+     <ListItem className={classes.listItem}>
+            <CustomDropdown
+              noLiPadding
+              buttonText="About Us"
+              buttonProps={{
+                className: classes.navLink,
+                color: "transparent"
+              }}
+              buttonIcon={Apps}
+              dropdownList={[
+                <Link to="/About-Us" className={classes.dropdownLink}>
+                  Our Story
+                </Link>,
+                  <Link to="/RudzaniTVTeam" className={classes.dropdownLink}>
+                      Our Team
+                  </Link>
+              ]}
+            />
+          </ListItem>
+
         <ListItem className={classes.listItem}>
         <CustomDropdown
           noLiPadding
@@ -71,7 +91,7 @@ export default function HeaderLinks(props) {
           classes={{ tooltip: classes.tooltip }}
         >
           <Button
-            href="https://twitter.com/RudzaniTv"
+            href="https://twitter.com/RuudzaniTV"
             target="_blank"
             color="transparent"
             className={classes.navLink}
@@ -89,7 +109,7 @@ export default function HeaderLinks(props) {
         >
           <Button
             color="transparent"
-            href="https://www.facebook.com/Rudzani-Muthambi-film-484986685640482/"
+            href="https://www.facebook.com/profile.php?id=100087684368238"
             target="_blank"
             className={classes.navLink}
           >
@@ -106,7 +126,7 @@ export default function HeaderLinks(props) {
         >
           <Button
             color="transparent"
-            href="https://www.instagram.com/r.muthambi/"
+            href="https://www.instagram.com/rudzanitv/"
             target="_blank"
             className={classes.navLink}
           >

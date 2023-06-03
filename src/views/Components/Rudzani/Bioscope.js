@@ -34,7 +34,7 @@ export default function Bioscope() {
           color: "white"
         }}
       />
-      <Parallax image={require("assets/img/bioscope3.jpg")}>
+      <Parallax image={require("assets/img/1.png")}>
         <div className={classes.container}>
           <GridContainer>
             <GridItem>

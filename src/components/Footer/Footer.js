@@ -33,16 +33,16 @@ export default function Footer(props) {
             <List className={classes.list}>
               <ListItem className={classes.inlineBlock}>
                 <a
-                    href="https://targetonline.co.za"
+                    href="https://rudzani.tv"
                     className={classes.block}
                     target="_blank"
                 >
-                  Target Online (PTY) LTD
+                  Rudzani Muthambi Properties (PTY) LTD
                 </a>
               </ListItem>
               <ListItem className={classes.inlineBlock}>
                 <a
-                    href="https://targetonline.co.za#about-us"
+                    href="https://rudzani.tv"
                     className={classes.block}
                     target="_blank"
                 >
@@ -51,7 +51,7 @@ export default function Footer(props) {
               </ListItem>
               <ListItem className={classes.inlineBlock}>
                 <a
-                    href="https://www.youtube.com/channel/UCPXwn709gmxylXeGiPCRjvA"
+                    href="https://www.youtube.com/watch?v=ro23zJUzwls"
                     className={classes.block}
                     target="_blank"
                 >
@@ -60,7 +60,7 @@ export default function Footer(props) {
               </ListItem>
               <ListItem className={classes.inlineBlock}>
                 <a
-                    href="https://web.facebook.com/Web-Development-Services-2078283995516794/"
+                    href="https://www.facebook.com/profile.php?id=100087684368238"
                     className={classes.block}
                     target="_blank"
                 >
@@ -73,13 +73,12 @@ export default function Footer(props) {
             &copy; {1900 + new Date().getYear()} , made with{" "}
             <Favorite className={classes.icon} /> by{" "}
             <a
-                href="https://targetonline.co.za"
+                href="https://rudzani.tv"
                 className={aClasses}
                 target="_blank"
             >
-              Target Online (PTY) LTD
+              Rudzani Muthambi (PTY) LTD
             </a>{" "}
-            for a better web.
           </div>
         </div>
       </footer>

@@ -35,7 +35,7 @@ export default function LandingPage(props) {
         }}
         {...rest}
       />
-      <Parallax image={require("assets/img/bioscope2.jpg")}>
+      <Parallax image={require("assets/img/3.png")}>
         <div className={classes.container}>
           <GridContainer>
             <GridItem>

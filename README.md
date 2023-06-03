@@ -59,7 +59,7 @@ This new design has elements that have been the result of research regarding ink
 [View More](https://demos.creative-tim.com/material-kit/index.html)
 
 
-## Quick start
+## Quick startÏ
 
 - `npm i material-kit-react`
 - [Download from Github](https://github.com/creativetimofficial/material-kit-react/archive/master.zip).
