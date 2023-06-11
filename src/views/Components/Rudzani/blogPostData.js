@@ -1,6 +1,37 @@
 export const blogPostData = [
-  {
+ {
     id: 1,
+    writers: "Happy Khumalo",
+    name: "Vusi’Africa Sindane",
+    trailerName: "Surviving Gaza",
+    professionTitle: "Director | Writer ",
+    bannerSubTitle: "There's three qualifications in Gaza a diploma for knife Gurus , a degree for murder and a masters for heist.",
+    youtubeLink: "https://www.youtube.com/watch?v=ItMSbuu48mA",
+    mainTitle: "Vusi’Africa Sindane - The film industry was not a decision to me but a natural progression",
+    paragraphs: [
+    "Vusi’Africa Sindane was born in kwaNdebele and raised in Witbank now Emalahleni - Mpumalanga by his mother who is a passionate writer and a poet.  Sindane says his mother’s writing about situations of others and of herself inspired him to be able to write about his feelings and others. This affirmation is evident in his award-winning works; <a href='https://www.youtube.com/watch?v=ItMSbuu48mA' target=”_blank”>Surviving Gaza (2022)</a>, <a href='https://www.youtube.com/watch?v=s0AGNiJYJ3s&t=6s' target=”_blank”>Letters of Hope (2019)</a>, <a href='https://www.youtube.com/watch?v=NL0fjUOdLvg' target=”_blank”>The empty Kraal (2017)</a> to name a few.",
+    "The film industry is so broad that one is expected to develop enthusiasm before embarking on it. He fell in love with the film industry during the earliest stages of his life in primary school and coordinated several shows in his fourth grade. He stated that he was motivated by old stories including Ubambo Lwami (1989) by Percy Langa and many others. His power lies in his courage to express his thoughts and feelings. Additionally, his flexibility in writing and directing.",
+    "He <a href='http://www.trialbymedia.tv/' target=”_blank”>won 5 major awards over 14 nominations</a>. These include Best Artistic Bravery award at the Durban International Film Festival (DIFF) for Artistic Bravery Awards, Best Director, Best Sound and Best Visual effects at the African Movie Academy Award (AMMA). As a young emerging filmmaker, being nominated over 14 times supports his inordinate creativity and dedication towards the film industry. He wrote and directed all the films amongst those he’s received awards for.  This shows Vusi’Africa’s dedication to his craft and his talent.  According to him, achieving this much in the film industry demonstrates that the society appreciates his work and not all young filmmakers would be this phenomenal.",
+    "Sindane says the writing, directing, and editing compliments each other as it is a universal thing and it is most likely that directors would edit their own films regardless of them taking credit or not, due to the underlaying fact that each film already has an assigned editor. “I’ve edited all three of my films”, Sindane highlighted regarding his flexibility towards the filmmaking process in the film industry. “I’ve been blessed with the work that I’ve been doing, it’s been getting to the right eyes, and it’s been receiving the right attention”, said Sindane.",
+    "“The gap between black and white filmmakers will always be an issue of contention, high contention for that matter, and the reason that this will be an issue of high contention is because of the historic reason that have in the past separated black filmmakers and white filmmakers.” Sindane further stated that it is an obvious fact that white filmmakers were in a better position, they were better privileged than black filmmakers, because they had better subsidy schemes and black filmmakers did not. “Which means that historically, if we are to focus, the future of black filmmakers and white filmmakers - white filmmakers are better positioned financially because of their historic advantage to position themselves, because of the financial resources that they have”, Sindane stressed when asked about the gap that apartheid  opened between black and white filmmakers in the film industry.",
+    "“We need to start moving away from a dependency of public funding, we need to find a way to carve out a path towards private financing for our films”, Sindane indicated that such is critical to consider as a reliable route that can meet the public sector halfway in terms of consistently funding emerging voices. Sindane heightened that it is very critical that in the film production and in the creation, to consider how filmmakers move towards the ownership of the resources of production, so that a different position in the film value chain can shift to a different dimension.",
+   "Sindane is fully aware of the historical impact on African filmmakers, which limits potential content creators to showcase their amazing creativity. “The imbalance of the industry gives African filmmakers a good donkey, cart with no harness”, says Vusi’Africa. The only way to redirect this wave is to be financially independent and establish private funding which shall bring in underprivileged black filmmakers into the field and close up the historical gap. “Government is overloaded and cannot fund enough”, said Vusi’Africa.",
+   "As an independent filmmaker Vusi’Africa believes in the constant creation of beautiful work that travels, that speaks to mass audiences, and that reach borders globally. He says students in film school have already won half the battle and the rest of it will begin after school in the beginning of their career path. The black society rarely have access to film schools and such opportunities should not be taken for granted. He further stated that the black societies should be proactive in creating the industry and a beautiful catalogue that can occupy the position aimed at the industry.",
+   "He encourages all students studying towards film in different film schools to realise the potential and voice they have in changing Africa through films. As he is actively involved with the community and changing perspectives of black society, the film industry has that power to change the world."
+  ],
+    profileImage: require("./RuImages/VusiAfrica/VusiProfile.jpeg"),
+    bannerImage: require("./RuImages/VusiAfrica/GazaBanner.png"),
+    carouselImages: [
+      require("./RuImages/VusiAfrica/5.png"),
+      require("./RuImages/VusiAfrica/2.png"),
+      require("./RuImages/VusiAfrica/3.png"),
+      require("./RuImages/VusiAfrica/4.png"),
+      require("./RuImages/VusiAfrica/1.png"),
+    ],
+  },
+  {
+    id: 2,
+     writers: "Countries Machate, Happy Khumalo, Pheeha Tjale, & Mmapowana Masete",
     name: "Kizito Samuel Saviour",
     trailerName: "Kizito Samuel Saviour",
     professionTitle: "filmmaker",
@@ -31,7 +62,8 @@ export const blogPostData = [
     ],
   },
   {
-    id: 2,
+    id: 3,
+    writers: "Dan",
     name: "Reabetswe Rea Moeti",
     trailerName: "Mma Moeketsi",
     professionTitle: "filmmaker",
@@ -55,7 +87,8 @@ export const blogPostData = [
     ],
   },
   {
-    id: 3,
+    id: 4,
+    writers: "Dan",
     name: "Mandla Dube",
     trailerName: "Kalushi",
     professionTitle: "filmmaker",
@@ -77,7 +110,8 @@ export const blogPostData = [
     ],
   },
   {
-    id: 4,
+    id: 5,
+    writers: "Dan",
     name: "Molatelo Mainetje",
     trailerName: "Womb-man",
     professionTitle: "filmmaker",
@@ -100,7 +134,8 @@ export const blogPostData = [
     ],
   },
   {
-    id: 5,
+    id: 6,
+    writer: "Dan",
     name: "Comfort Arthur",
     trailerName: "Black Barbie",
     professionTitle: "filmmaker",

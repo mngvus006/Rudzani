@@ -61,6 +61,7 @@ export default function BlogPostLandingPage(props) {
                 <i className="fas fa-play" />
                 Watch video
               </Button>
+              <p>Blog post curated by {blogItem.writers}</p>
             </GridItem>
           </GridContainer>
         </div>

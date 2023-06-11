@@ -20,7 +20,7 @@ import team1 from "assets/img/faces/biddy.jpg";
 import team2 from "assets/img/faces/mesete.png";
 import team3 from "assets/img/faces/happy.jpeg";
 import team4 from "assets/img/faces/pheeha.png";
-import team5 from "assets/img/faces/five.jpeg";
+import team5 from "assets/img/faces/Trod.JPG";
 const useStyles = makeStyles(styles);
 
 export default function TeamSection() {
