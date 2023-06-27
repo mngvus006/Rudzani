@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5363287-aa44-47f3-a670-b97ddb246bb7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.firebase/hosting.YnVpbGQ.cache" beforeDir="false" afterPath="$PROJECT_DIR$/.firebase/hosting.YnVpbGQ.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Components/Rudzani/.blogPostData.js.swo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Components/Rudzani/.blogPostData.js.swp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Components/Rudzani/Bioscope.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Components/Rudzani/Bioscope.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Components/Rudzani/blogPostData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Components/Rudzani/blogPostData.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
