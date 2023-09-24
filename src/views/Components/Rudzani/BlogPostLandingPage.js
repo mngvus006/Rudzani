@@ -28,19 +28,20 @@ const useStyles = makeStyles(styles);
 export default function BlogPostLandingPage(props) {
   const classes = useStyles();
   const { ...rest } = props;
-  const blogId = typeof(props.location.blogId) !== 'undefined' ? props.location.blogId : 1
+  const blogId =
+    typeof props.location.blogId !== "undefined" ? props.location.blogId : 1;
   const blogItem = getBlogPostById(blogId);
   return (
     <div>
       <Header
         color="transparent"
         routes={dashboardRoutes}
-        brand="Material Kit React"
+        brand="Rudzani TV"
         rightLinks={<HeaderLinks />}
         fixed
         changeColorOnScroll={{
           height: 400,
-          color: "white"
+          color: "white",
         }}
         {...rest}
       />
@@ -48,8 +49,8 @@ export default function BlogPostLandingPage(props) {
         <div className={classes.container}>
           <GridContainer>
             <GridItem xs={12} sm={12} md={6}>
-      <h1 className={classes.title}>{blogItem.trailerName}</h1>
-      <h4>{blogItem.bannerSubTitle}</h4>
+              <h1 className={classes.title}>{blogItem.trailerName}</h1>
+              <h4>{blogItem.bannerSubTitle}</h4>
               <br />
               <Button
                 color="danger"

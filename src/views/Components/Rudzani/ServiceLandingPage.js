@@ -31,12 +31,12 @@ export default function LandingPage(props) {
       <Header
         color="transparent"
         routes={dashboardRoutes}
-        brand="Material Kit React"
+        brand="Rudzani TV"
         rightLinks={<HeaderLinks />}
         fixed
         changeColorOnScroll={{
           height: 400,
-          color: "white"
+          color: "white",
         }}
         {...rest}
       />
@@ -46,13 +46,12 @@ export default function LandingPage(props) {
             <GridItem xs={12} sm={12} md={6}>
               <h1 className={classes.title}>Your Story Starts With Us.</h1>
               <h4>
-                We committed to making content that
-                is ACCESSIBLE and beneficial to African communities, while
-                maintaining CONSISTENCY in bringing affordable products and
-                services required by our customers. We are creating symbolic
-                RELATIONSHIPS based on HONESTY, by cultivating, nurturing and
-                distributing films about our audience so in order to build a
-                LOYAL following.
+                We committed to making content that is ACCESSIBLE and beneficial
+                to African communities, while maintaining CONSISTENCY in
+                bringing affordable products and services required by our
+                customers. We are creating symbolic RELATIONSHIPS based on
+                HONESTY, by cultivating, nurturing and distributing films about
+                our audience so in order to build a LOYAL following.
               </h4>
               <br />
               <Button

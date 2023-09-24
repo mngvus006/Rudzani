@@ -25,13 +25,13 @@ export default function LandingPage(props) {
   return (
     <div>
       <Header
-        brand="Material Kit React"
+        brand="Rudzani TV"
         rightLinks={<HeaderLinks />}
         fixed
         color="transparent"
         changeColorOnScroll={{
           height: 400,
-          color: "white"
+          color: "white",
         }}
         {...rest}
       />
@@ -53,7 +53,6 @@ export default function LandingPage(props) {
       <div className={classNames(classes.main, classes.mainRaised)}>
         <AboutPage />
       </div>
-
 
       <Footer />
     </div>
